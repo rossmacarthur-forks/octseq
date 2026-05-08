@@ -1,6 +1,6 @@
 [package]
 name = "octseq"
-version = "0.5.2"
+version = "0.6.2"
 edition = "2021"
 rust-version = "1.65"
 authors = ["NLnet Labs <rust-team@nlnetlabs.nl>"]
@@ -24,4 +24,3 @@ std     = ["bytes?/std"]
 [package.metadata.docs.rs]
 all-features = true
 rustdoc-args = ["--cfg", "docsrs"]
-
